@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(243, 242, 242);
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    grid-column-gap:50px ;
+    padding: 70px 30px;
+}
+
+.information{
+    width: 500px;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    row-gap: 30px;
+}
+
+.information h1{
+    font-size: 4rem;
+    color: #1877f2;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+
+.information p{
+    width: 500px;
+    font-size: 2rem;
+}
+
+
+.form form{
+    width: 380px;
+    height: 350px;
+    padding-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: solid 1px rgba(128, 128, 128, 0.555);
+    box-shadow: 5px 5px 20px rgba(128, 128, 128);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+
+
+.data{
+    width: 330px;
+    height: 50px;
+    border: solid 1px gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.send{
+    width: 330px;
+    height: 50px;
+    border: solid 1px gray;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color:#1877f2 ;
+    color: white;
+
+}
+
+.NewAcct{
+    width: 250px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: #32d432;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
